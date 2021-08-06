@@ -10,48 +10,9 @@ p {
     text-align: center;
     font-family: Candara;
 }
-
-header {
-    background: #055160;
-    width: 100%;
-    position: fixed;
-    z-index: 100;
-}
-
-nav {
-    float: left; /* Desplazamos el nav hacia la izquierda */
-}
-  
-nav ul {
-    list-style: none;
-    overflow: hidden; /* Limpiamos errores de float */
-}
-  
-nav ul li {
-    float: left;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    font-size: 20px;
-}
-  
-nav ul li a {
-    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
-    padding: 20px;
-    color: #fff;
-    text-decoration: none;
-}
   
 nav ul li:hover {
     background: #e8ce75;
-}
-
-.contenido {
-    padding-top: 0px;
-}
-
-.wrapper {
-    width: 80%;
-    margin: auto;
-    overflow:hidden;
 }
 
 h1 {
@@ -66,6 +27,5 @@ h1 {
     background-color: #fafafa;
     margin: 1rem;
     padding: 1rem;
-    border: 2px solid #ccc;
     text-align: center;
 }
