@@ -8,7 +8,7 @@ p {
     margin-right: 15%;
     margin-bottom: 0;
     text-align: center;
-    font-family: Candara;
+    font-family: 'Courier New', Courier, monospace;
 }
   
 nav ul li:hover {
@@ -17,9 +17,9 @@ nav ul li:hover {
 
 h1 {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     font-size: 400%;
-    font-weight: bold;
+    font-weight: bolder;
     color: black;
 }
 
@@ -28,4 +28,9 @@ h1 {
     margin: 1rem;
     padding: 1rem;
     text-align: center;
+}
+
+.oscuro {
+    background-color: black;
+    color: white;
 }
