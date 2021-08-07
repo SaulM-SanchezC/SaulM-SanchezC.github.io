@@ -23,8 +23,13 @@ h1 {
     color: black;
 }
 
+.Form-contacto h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
 .mapa {
-    background-color: #fafafa;
+    background-color: black;
     margin: 1rem;
     padding: 1rem;
     text-align: center;
@@ -33,4 +38,41 @@ h1 {
 .oscuro {
     background-color: black;
     color: white;
+}
+
+.vermas {
+    margin-right: 3em;
+    font-size: 150%;
+    color: white;
+}
+
+.Form-contacto{
+    width: 600px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    font-family: 'calibri';
+    color: white;
+}
+
+.Form-contacto .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+.Form-contacto .Dabuton {
+    width: 100%;
+    background: #1f53c5;
+    border: mediumblue;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
 }
