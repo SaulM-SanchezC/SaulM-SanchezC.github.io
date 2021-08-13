@@ -50,8 +50,52 @@
         <br>
         <br>
         <h1>¡Te compartimos lo que sabemos!</h1>
+        <script> 
+            function vermas(id)
+            {
+                if(id=="mas")
+                {
+                    document.getElementById("desplegar").style.display="block";   
+                    document.getElementById("mas").style.display="none"; 
+                }
+                else
+                {
+                document.getElementById("desplegar").style.display="none";
+                document.getElementById("mas").style.display="inline";
+                }
+            }
+        </script>
+        
+        <div>
+                <div class="parrafo">
+                    <h3>¿Cómo sé si una Agencia es confiable?</h3>
+                    <p>
+                        Las Agencias de Marketing Digital son las nuevas empresas de consultoría, que ayudan a sus clientes a entender Qué, Cómo, Cuándo y Hacia Quiénes. Sin embargo, existen ciertas pautas con las que te puedes guiar para saber si una Agencia merece tu confianza. A continuación te mencionaremos algunos de los más importantes.
+                    <a class="vermas" href="#" onclick="vermas('mas');" id="mas">[Continuar leyendo]</a>
+                    </p>
+                    <p id="desplegar" style="display:none;">
+                    <br />
+                        1.- Establecer buena comunicación con el cliente.
+                        <br>
+                        2.- Tener un equipo multidisciplinar y de altas capacidades.
+                        <br>
+                        3.- Aplicar metodologías interactivas.
+                        <br>
+                        4.- Sitios web y redes sociales activas de manera constante.
+                        <br>
+                        5.- Portafolio de trabajo con marcas vigentes.
+                        <br>
+                        Es muy importante saber diferenciar una agencia que te proveerá un servicio cómodo y eficaz, ya que de ello dependerá el crecimiento de tu presencia digital.
+                        <br>
+                        En Clever entendemos la importancia de tus sueños. Sabemos lo que significa trabajar por ellos. #BeClever Work with us.
+                    <br />
+                    <b></b>
+                    <a class="vermas" href="#" onclick="vermas('menos');" id="menos">[Reducir]</a>
+                    </p>
+                </div>
+            </div>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
     </body>
 </html>
