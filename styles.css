@@ -110,3 +110,7 @@ h3 {
     height: 100%;
     object-fit: cover;
 }
+
+.gallery__img:nth-child(5){
+    grid-column-start: span 2;
+}
