@@ -48,6 +48,13 @@ h3 {
     text-align: center;
 }
 
+.mapasinmargen {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
 .oscuro {
     background-color: black;
     color: white;
@@ -111,6 +118,6 @@ h3 {
     object-fit: cover;
 }
 
-.gallery__img:nth-child(5){
+.gallery__item:nth-child(5){
     grid-column-start: span 2;
 }
